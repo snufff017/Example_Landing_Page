@@ -1,0 +1,25 @@
+header {
+    padding: 23px 0 99px 0;
+    background: url('../img/main-bg.png') no-repeat;
+    background-size: cover;
+    background-color: $blue-color--dark;
+    color: #ffffff;
+    @media (max-width: $md-screen) {
+        padding: 40px 0;
+    }
+    .header__title {
+        max-width: 380px;
+        margin: 0 auto 79px;
+        text-align: center;
+        @media (max-width: $md-screen) {
+            margin: 0 auto 36px;
+        }
+    }
+    .header__description {
+        max-width: 880px;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.35;
+        text-align: center;
+    }
+}

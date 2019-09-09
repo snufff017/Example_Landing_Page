@@ -1,0 +1,17 @@
+.partners {
+    padding: 23px 0 0 0;
+    text-align: center;
+    &__logo {
+       padding-left: 9px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       max-width: 721px;
+       margin: auto;
+       img {
+           @media (max-width: $md-screen) {
+                width: 70%;
+        }
+       }
+    }
+}

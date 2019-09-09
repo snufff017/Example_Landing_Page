@@ -1,0 +1,55 @@
+
+@import "variables.scss";
+@import "common.scss";
+@import "typography.scss";
+@import "fonts.scss";
+@import "custom-grid.scss";
+
+
+@import "blocks/declaration-text.scss";
+@import "blocks/logo.scss";
+@import "blocks/social-links.scss";
+@import "blocks/copyright.scss";
+@import "blocks/burger-menu.scss";
+
+@import "blocks/navigation.scss";
+@import "blocks/header.scss";
+@import "blocks/partners.scss";
+@import "blocks/feature__block.scss";
+
+@import "buttons/button--green-stroke.scss";
+
+
+body {
+ &.overflow-hidden {
+     overflow: hidden;
+ }
+}
+
+//Sections
+
+@import "sections/feature.scss";
+@import "sections/wordlwide-recognition.scss";
+@import "sections/footer.scss";
+
+main {
+    padding: 0 0 112px 0;
+}
+
+.container {
+    @media (max-width: $md-screen) {
+        max-width: 540px;
+    }
+
+}
+
+//Modifier
+.text-center {
+    text-align: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+

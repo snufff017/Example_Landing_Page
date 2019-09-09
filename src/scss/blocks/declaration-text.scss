@@ -1,0 +1,6 @@
+.declaration-text {
+    font-size: 16px;
+    @media (max-width: $md-screen) {
+        text-align: center;
+     }
+}

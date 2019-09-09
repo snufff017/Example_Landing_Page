@@ -1,0 +1,34 @@
+.button--green-stroke {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 231px;
+    padding: 18px 10px;
+    border: 1px solid $green-color;
+    border-radius: $border-radius;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #000000;
+    &::before, 
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        transition: all 0.3s;
+        background: $green-color;
+    }
+    &::after {
+        height: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    &:hover {
+        color: #ffffff;
+    }
+    &:hover:after {
+        height: 100%;
+    }
+
+}

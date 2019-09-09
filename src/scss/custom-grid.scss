@@ -1,0 +1,13 @@
+$grid-columns:      12;
+$grid-gutter-width: 20px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1080px
+);
+  
+
+  @import "./node_modules/bootstrap-4-grid/scss/grid.scss";
+

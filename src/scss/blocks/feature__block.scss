@@ -1,0 +1,64 @@
+.feature__block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 128px 35px 35px;
+    height: 100%;
+    background-color: $grey-color--light;
+    text-align: center;
+
+    &--our-products {
+        background: transparent;
+        padding: 120px 35px 0;
+    }
+
+}
+
+.feature__block__icon {
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    &--first {
+        top: 37px;
+    }
+    &--two {
+        top: 39px;
+    }
+    &--three {
+        top: 45px;
+        left: 51%;
+    }
+    &--eros {
+        left: 52%;
+    }
+    &--potenti {
+    }
+    &--enim {
+
+    }
+}
+
+.feature__block__title {
+    margin-bottom: 11px;
+}
+
+.feature__block__description {
+    text-align: left;
+    margin-bottom: 38px;
+    @media (max-width: $md-screen) {
+        text-align: center;
+     }
+    &--our-products {
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+.feature__block__link {
+    a {
+        display: inline-block;
+        text-decoration: none;
+    }
+}
