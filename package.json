@@ -19,7 +19,7 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "acorn": "^6.0.5",
+    "acorn": "^6.4.1",
     "autoprefixer": "^9.4.7",
     "bootstrap-4-grid": "^2.4.1",
     "browser-sync": "^2.26.3",
